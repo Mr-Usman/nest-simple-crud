@@ -1,7 +1,7 @@
 import { PrimaryGeneratedColumn, CreateDateColumn } from 'typeorm';
 
 export class BaseEntity {
-    @PrimaryGeneratedColumn()
+    @PrimaryGeneratedColumn() 
     id?: number;
     
     @CreateDateColumn({ nullable : true })

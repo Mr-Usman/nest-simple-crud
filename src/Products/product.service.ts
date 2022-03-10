@@ -6,7 +6,7 @@ import { Repository } from 'typeorm';
 import { ProductModel } from './product.model'; // dto
 
 @Injectable()
-export class ProductService {
+export class ProductService { 
   // private products: Product[] = [];
   constructor(
     @InjectRepository(Product)

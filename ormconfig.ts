@@ -1,16 +1,3 @@
-// module.exports = {
-//     username: 'postgres',
-//     type: 'postgres',
-//     host: "localhost",
-//     password : "root",
-//     database :"test",
-//     port: 5432,
-//     entities: ['dist/**/*.entity.{js, ts}'],
-//     synchronize: false,
-//     migrations: ['dist/migrations/*.{js, ts}'],
-//     cli: { migrationsDir: 'src/migrations'}
-// }
-
 module.exports = {
   username: 'postgres',
   type: 'postgres',
